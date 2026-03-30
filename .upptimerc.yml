@@ -1,0 +1,30 @@
+owner: astradial
+repo: upptime
+sites:
+  - name: Cloud PBX API
+    url: https://devpbx.astradial.com/docs
+  - name: Lite
+    url: https://lite.astradial.com/health
+  - name: Voice
+    url: https://voice.astradial.com/health
+  - name: Events
+    url: https://events.astradial.com/
+  - name: NUC Gateway (via Cloud)
+    url: http://89.116.31.109:19999/api/v1/info
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.astradial.com
+  name: Astradial Status
+  theme: light
+  navbar:
+    - title: Astradial
+      href: https://astradial.com
+
+notifications:
+  - type: email
+    to: hari@astradial.com
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
