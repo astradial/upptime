@@ -11,6 +11,6 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
-      - uses: astradial/uptime-monitor@v1.41.1-astradial
+      - uses: astradial/uptime-monitor@v1.41.2-astradial
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
