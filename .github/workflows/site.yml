@@ -15,7 +15,7 @@ jobs:
       pages: write
     steps:
       - uses: actions/checkout@v4
-      - uses: astradial/uptime-monitor@v1.41.1-astradial
+      - uses: astradial/uptime-monitor@v1.41.3-astradial
         with:
           command: site
         env:
